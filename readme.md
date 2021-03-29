@@ -1,4 +1,6 @@
-# NetML Challenge 2020
+# NetML Challenge 2020 - Methods for malware detection version - 7063210
+This competition is forked from https://github.com/ACANETS/NetML-Competition2020
+
 ## Overview
 Recent progress in AI, Machine Learning and Deep Learning has demonstrated tremendous success in many application domains such as games and computer vision. Meanwhile, there are challenges of proliferating data flows and increasing malicious traffic on today’s Internet that call for advanced network traffic analysis tools. In this competition, we challenge the participants to leverage novel machine learning technologies to detect malicious flows and/or distinguish applications in a fine-grained fashion among network flows.
 
@@ -21,28 +23,10 @@ This challenge is organized by the Laboratory of Advanced Computer Architecture 
 ----------------
 
 ## Dates
-- February 17, 2020               NetML challenge is launched!
-- *<del>June 1, 2020                    Submission deadline at 23:59:59 UTC</del>*
-- *<del>June 15, 2020                   Winners' announcement at the NetML Workshop, IJCAI 2020</del>*
-- **COVID-19 UPDATE !!! Challenge submission deadline and date of winner's announcement are postponed to comply with IJCAI 2020. You may follow https://ijcai20.org/ for the conference and https://netaml.github.io/ for the workshop updates.**
-- December 1, 2020                    Submission deadline at 23:59:59 UTC
-- January 7, 2021                     Winners' announcement at the NETAML Workshop, IJCAI 2020
+- April 8, 2021                            NetML challenge is launched!
+- *<del>April 23, 2021                     Submission deadline at 23:59:59 Israel time</del>*
 ----------------
 
-## Prize
-$3000 prize will be awarded for the winners in each of seven tracks. The total amount is going to be split as shown below:
-
-| Tracks  |    Winner   | Runner-up | 2nd Runner-up |
-| ------- | ----------- | --------- | ------------- |
-|   #1    |     $150    |    $125   |     $100      |
-|   #2    |     $200    |    $150   |     $100      |
-|   #3    |     $150    |    $125   |     $100      |
-|   #4    |     $200    |    $150   |     $100      |
-|   #5    |     $200    |    $150   |     $100      |
-|   #6    |     $200    |    $150   |     $100      |
-|   #7    |     $200    |    $150   |     $100      |
-
-----------------
 
 ## Challenge Guidelines
 
@@ -94,15 +78,7 @@ You are expected to use fine-grained annotations (facebook_audio, facebook_chat,
 
 ----------------
 
-Three prize winners (The Winner, Runner-up, 2nd Runner-up) will be announced for each track. In order to win the prize, for example for non-vpn2016 toplevel track, a team must submit their results for both non-vpn2016_toplevel_dev and vpn2016_toplevel_challenge phases. The final score for each track will be calculated by averaging the 'overall' scores of both *dev* and *challenge* phases.
 
-The evaluation page lists detailed information regarding how submissions will be scored. The evaluation servers are open. To enter the competition, first you need to create an account on EvalAI, developed by the CloudCV team. EvalAI is an open-source web platform designed for organizing and participating in challenges to push the state of the art on AI tasks.
-
-To submit your JSON file to the NetML evaluation servers, click on the “Submit” tab on the NetML challenge 2020 page on EvalAI. Select the phase. Please select the JSON file to upload and fill in the required fields such as "method name" and "method description" and click “Submit”. After the file is uploaded, the evaluation server will begin processing. To view the status of your submission please go to “My Submissions” tab and choose the phase to which the results file was uploaded. If the status of your submission is “Failed” please check your "Stderr File" for the corresponding submission.
-
-After evaluation is complete and the server shows a status of “Finished”, you will have the option to download your evaluation results by selecting “Result File” for the corresponding submission. The "Result File" will contain the aggregated accuracy on the corresponding data split.
-
-Please limit the number of entries to the challenge evaluation server to a reasonable number, e.g., one entry per paper. To avoid overfitting, the number of submissions per user is limited to 1 upload per day (according to UTC timezone) and a maximum of 5 submissions per user. It is not acceptable to create multiple accounts for a single project to circumvent this limit. The exception to this is if a group publishes two papers describing unrelated methods, in this case both sets of results can be submitted for evaluation. However, Development phases allow for 10 submissions per day.
 
 The download page contains links to all NetML, CICIDS2017 and non-vpn2016 train, test-std and test-challenge data and associated annotations (for training set only). Please specify any and all external data used for training in the "method description" when uploading results to the evaluation server.
 
