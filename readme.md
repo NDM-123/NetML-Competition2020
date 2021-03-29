@@ -4,7 +4,7 @@ This competition is forked from https://github.com/ACANETS/NetML-Competition2020
 ## Overview
 Recent progress in AI, Machine Learning and Deep Learning has demonstrated tremendous success in many application domains such as games and computer vision. Meanwhile, there are challenges of proliferating data flows and increasing malicious traffic on today’s Internet that call for advanced network traffic analysis tools. In this competition, we challenge the participants to leverage novel machine learning technologies to detect malicious flows and/or distinguish applications in a fine-grained fashion among network flows.
 
-We are pleased to announce the NetML Challenge 2020. Given a set of flow features extracted from the original packet capture (PCAP) files, the task is to provide an accurate prediction. The challenge is hosted on EvalAI. Challenge link: https://evalai.cloudcv.org/web/challenges/challenge-page/526/overview
+We are pleased to announce the NetML Challenge 2020. Given a set of flow features extracted from the original packet capture (PCAP) files, the task is to provide an accurate prediction. 
 
 This NetML Challenge 2020 is the 1st of the Machine Learning Driven Network Traffic Analytics Challenge. In this year’s challenge, a collection of 1,199,139 flows in three different datasets are given including detailed flow features and labels. We also provide simple APIs and baseline machine learning models to demonstrate the usage of the datasets and evaluation metrics. There are 7 tracks for specific analytics objectives.
 
