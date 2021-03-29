@@ -24,7 +24,7 @@ This challenge is organized by the Laboratory of Advanced Computer Architecture 
 
 ## Dates
 - April 8, 2021                            NetML challenge is launched!
-- *<del>April 23, 2021                     Submission deadline at 23:59:59 Israel time</del>*
+- April 23, 2021                     Submission deadline at 23:59:59 Israel time
 ----------------
 
 
