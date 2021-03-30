@@ -82,7 +82,7 @@ You are expected to use fine-grained annotations (facebook_audio, facebook_chat,
 
 The download page contains links to all NetML, CICIDS2017 and non-vpn2016 train, test-std and test-challenge data and associated annotations (for training set only). Please specify any and all external data used for training in the "method description" when uploading results to the evaluation server.
 
-Results must be submitted to the evaluation server by the challenge deadline. Competitors' algorithms will be evaluated according to the rules described on the evaluation page. Challenge participants with the most successful and innovative methods will be invited to present.
+Results must be submitted to the MODEL by the challenge deadline please see description in the main document.
 
 ----------------
 
@@ -135,7 +135,7 @@ We recommend you to use virtual environment. For details please see https://docs
 $ git clone https://github.com/ACANETS/NetML-Competition2020
 ```
 
-### Usage Example
+### Usage Example (alternative way is to use the official ipython)
 Provided baseline script evaluates the model according to the validation set scores created using 20% of the training set. The remaining 80% of the training set is used to train the model.
 
 To train for Phase-1 NetML_toplevel_dev and create a JSON file ready to submit:
